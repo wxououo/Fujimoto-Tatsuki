@@ -15,7 +15,7 @@ body{
     height: 70px;
     position: sticky;
     top: 0;
-
+    z-index: 8;
     background-color: rgb(197, 53, 53);
 }
 .header{
@@ -143,6 +143,16 @@ body{
     
     /* background-color: lightgray; */
 }
+.bb{
+    position:relative;
+    display: block;
+    /* width: 700px; */
+    height: 700px;
+    width: 467px;
+    margin-right: 50px;
+    margin-top: 50px;
+    /* background-color: bisque; */
+}
 .chainsaw-intro{
     display: block;
     margin-left: 30px;
@@ -152,18 +162,19 @@ body{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    padding-top: 50px;
 
     /* background-color: lightgray; */
 }
 .chainsaw-pic:hover{
    opacity: 0%;
 }
-video{
+/* video{
     position: absolute;
     padding-right: 178px;
     width: 24.6%;
     z-index: -1;
-}
+} */
 .name{
     display: block;
     margin-top: -80px;
@@ -193,25 +204,31 @@ video{
    
     /* background-color: gray; */
 }
-.firepunch-pic{
+.aa{
+    position:relative;
     display: block;
     /* width: 700px; */
     height: 700px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-    
+    width: 487px;
+    margin-left: 50px;
+    /* background-color: bisque; */
+}
+.firepunch-pic{
+    display: block;
+    /* width: 700px; */
+    height: 100%;
+
     /* background-color: lightgray; */
 }
 .firepunch-pic:hover{
     opacity: 0%;
  }
-.video2{
-    position: absolute;
-    padding-left:18.8% ;
-    width: 25.5%;
+.video{
+    position:absolute;
+    width:100%;
     z-index: -1;
+    top: 0;
+    margin-top: 45%;
 }
 .firepunch-intro{
     display: block;
