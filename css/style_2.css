@@ -140,7 +140,6 @@ body{
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
-    
     /* background-color: lightgray; */
 }
 .bb{
@@ -168,6 +167,7 @@ body{
 }
 .chainsaw-pic:hover{
    opacity: 0%;
+
 }
 /* video{
     position: absolute;

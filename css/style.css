@@ -1,13 +1,14 @@
 html{
     box-sizing: border-box;
-    
     /* background-color: red; */
     background-image: linear-gradient(to bottom, rgb(160, 26, 26), black);
 }
 body{
     color:white;
     font-family: Arial;
+    
 }
+
 .container{
     margin-right: -10px;
     margin-left: -10px;
@@ -29,6 +30,7 @@ body{
     margin-top: -10px;
     height: 50px;
 }
+
 
 .nav-list{
     display: flex;
@@ -72,19 +74,14 @@ body{
 
 .sub-intro{
     display: flex;
-    margin-right: -10px;
-    margin-left: -20px;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     /* background-color:  gray; */
 }
 .subpic{
     display: block;
-    width: 100%;
-    text-align: left;
-    /* margin-right: 20px; */
-    margin-left: -20px;
-
+    width: 120%;
+    margin-left: -220px;
 
 }
 .sub-text{
@@ -121,7 +118,6 @@ body{
 }
 .main-pic{
     display: block;
-
     /* background-color:  darkgray; */
 }
 .author-pic{
